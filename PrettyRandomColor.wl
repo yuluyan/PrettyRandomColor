@@ -58,8 +58,6 @@ PrettyRandomColor[OptionsPattern[]] := Module[
 ];
 
 
-PackageScope["pickHue"]
-
 pickHue[hueName_, count_, seeds_] := Module[{hueRange, hue, hues},
 	If[count >= 2,
 		hueRange = parseHueRange[hueName];
