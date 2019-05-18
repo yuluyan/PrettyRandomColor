@@ -1,5 +1,11 @@
 (* ::Package:: *)
 
+(*Package PrettyRandomColor: generate pretty random colors*)
+(*Author: Luyan Yu*)
+(*Version: v0.0.1*)
+(*Github: https://github.com/yuluyan/PrettyRandomColor*)
+(*Ported from: https://github.com/davidmerfield/randomColor*)
+
 Package["PrettyRandomColor`"]
 
 PackageExport["PrettyRandomColor"]
