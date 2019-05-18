@@ -121,7 +121,7 @@ pickBrightness[hue_, s_, luminosity_, seed_] := Module[{bmin, bmax},
 
 parseHueRange[hue_]:=
 	If[IntegerQ[hue],
-		If[0 < hue < 360, 
+		If[0 <= hue <= 360, 
 		getHueRange @ getHueNameByValue @ hue, {0, 360}],
 		If[isHueName[hue],
 			getHueRange[hue],
@@ -134,7 +134,7 @@ parseHueRange[hue_]:=
 
 parseHueRangeStrict[hue_]:=
 	If[IntegerQ[hue],
-		If[0 < hue < 360, 
+		If[0 <= hue <= 360, 
 		{hue, hue}, {0, 360}],
 		If[isHueName[hue],
 			getHueRange[hue],
