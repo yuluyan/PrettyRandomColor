@@ -1,5 +1,5 @@
 # PrettyRandomColor
-Generate pretty color in Mathematica. Ported from [David Merfield's randomColor](https://github.com/davidmerfield/randomColor).
+Generate pretty color in Mathematica. Ported from [David Merfield's randomColor (f02eede)](https://github.com/davidmerfield/randomColor).
 
 # Installation
 1. Open the Mathematica user application folder by `SystemOpen @ FileNameJoin[{$UserBaseDirectory, "Applications"}];`
