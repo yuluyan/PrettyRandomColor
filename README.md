@@ -1,7 +1,7 @@
 # PrettyRandomColor
 Generate pretty color in Mathematica. Ported from [David Merfield's randomColor (f02eede)](https://github.com/davidmerfield/randomColor).
 
-Based on PrettyRandomColor, [PrettyColorize](https://github.com/yuluyan/PrettyRandomColor) is a useful tool for customizing the color of your figures in Mathematica.
+Based on PrettyRandomColor, [PrettyColorize](https://github.com/yuluyan/PrettyColorize) is a useful tool for customizing the color of your figures in Mathematica.
 
 # Installation
 1. Open the Mathematica user application folder by `SystemOpen @ FileNameJoin[{$UserBaseDirectory, "Applications"}];`
